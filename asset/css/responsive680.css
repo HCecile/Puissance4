@@ -1,0 +1,17 @@
+@media (max-width: 680px) {
+    header {
+      padding: 20px;
+      font-size: 48px;
+    }
+  
+    table {
+      font-size: 40px;
+    }
+    div {
+      height: 40px;
+      width: 40px;
+    }
+    section {
+      font-size: 25px;
+    }
+  }

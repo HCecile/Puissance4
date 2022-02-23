@@ -121,10 +121,10 @@ function winPuiss() {
     if (a == b && b == c && c == d) {
       if (a == "O".fontcolor("#ec5122")) {
         document.querySelector("#winnerPuiss").innerHTML = "Bravo au joueur ROUGE qui gagne cette partie";
-        isWin = true;
+        isWinPuiss = true;
       } else if (a == "X".fontcolor("#f0ce0d")) {
         document.querySelector("#winnerPuiss").innerHTML = "Bravo au joueur JAUNE qui gagne cette partie";
-        isWin = true;
+        isWinPuiss = true;
       }
     }
   }
